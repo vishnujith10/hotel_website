@@ -1,0 +1,212 @@
+<script>
+    function validate(){
+        var name=document.getElementById('name').value;
+        var number=document.getElementById('number').value;
+        var email=document.getElementById('email').value;
+        var area=document.getElementById('area').value;
+        var time=document.getElementById("time").value;
+        var person=document.getElementById("person").value;
+        var date=document.getElementById("date").value;
+        var food=document.getElementById("food").value;
+        
+        
+        if(name==""){
+            
+                alert("Please enter your name");
+            
+            event.preventDefault();
+        }
+        else if(number==""){
+            
+			alert("Please enter your number");
+		
+		event.preventDefault();
+	}
+    else if(number.length !== 10){
+        alert("Enter a valid phone number");
+            
+            event.preventDefault();
+    }
+	else if(email==""){
+            
+			alert("Please enter your email");
+		
+		event.preventDefault();
+	}
+    else if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+        alert("Enter a valid email");
+		
+		event.preventDefault();
+        
+    }
+	else if(time==""){
+            
+			alert("Please enter the time");
+		
+		event.preventDefault();
+	}
+	else if(person==""){
+            
+			alert("Enter the number of person's");
+		
+		event.preventDefault();
+	}
+    else if(person.length >=12){
+        alert("Maximum number of person is 12");
+            
+            event.preventDefault();
+    }
+    
+	else if(date==""){
+            
+			alert("Please enter the date");
+		
+		event.preventDefault();
+	}
+	else if(food==""){
+            
+			alert("Please select your food");
+		
+		event.preventDefault();
+	}
+        
+    }
+</script>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="gidarya restaurant">
+        <meta name="keyword" content="gidarya restaurant, restaurant,food,online food">
+        <meta name="author" content="">
+    <title>
+        reservation
+    </title>
+    <link rel="stylesheet" href="Reservation.css">
+
+</head>
+<body background="../Reservation/image/black-22.jpg">
+    <header>
+        <nav>
+            <div class="logo"><span>G</span>idariya Restaurant</div>
+            <div class="menu">
+                <a href="../project 1/index.html">Home</a>
+                <a href="../MENU/MENU.html">Menu</a>
+                <a href="../contact/contact.html">Feedback</a>
+                <a href="../storey/story.html">Story</a>
+                <a href="../About/About.html">About</a>
+
+            </div>
+        </nav>
+        <div class="box">
+            <div class="message">
+                <h3>Reserve a table</h3>
+            </div>
+            <form action="../succesful/succesful.html" name="form1" method="post" onsubmit="return validate()">
+            <table class="table1">
+                <tr>
+                    <td>
+                    <div class="font1">
+                    Full Name <div id="star"><span>*</span></div>
+                    </div>
+                    <div class="box1">
+                    <input type="text" placeholder="Your Name" name="name" id="name" >
+                    </div>
+                    </td>
+                    <td>
+                        <div class="font2">
+                           Email Address <div id="star"><span>*</span></div>
+                        </div>
+                        <div class="box2">
+                            <input type="email" placeholder="Name@gmail.com" name="email" id="email" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="font3">
+                    Phone Number <div id="star"><span>*</span></div>
+                    </div>
+                    <div class="box3">
+                    <input type="number" placeholder="123-456-7890" name="number" id="number" >
+                    </div>
+                    </td>
+                    <td>
+                        <div class="font4">
+                          Number of persons  <div id="star"><span>*</span></div>
+                        </div>
+                        <div class="box4">
+                            <input type="number" placeholder="12 persons" name="person" id="person" >
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="font5">
+                    Date <div id="star"><span>*</span></div>
+                    </div>
+                    <div class="box5">
+                    <input type="date" placeholder="dd-mm-yyyy" name="date" id="date" >
+                    </div>
+                    </td>
+                    <td>
+                        <div class="font6">
+                          Time <div id="star"><span>*</span></div>
+                        </div>
+                        <div class="box6">
+                            <select name="5:00 PM" required id="time">
+                                <option>5:00 PM</option>
+                                <option>6:00 PM</option>
+                                <option>7:00 PM</option>
+                                <option>8:00 PM</option>
+                                <option>9:00 PM</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <div class="font8">
+                            Food Item <div id="star"><span>*</span></div>
+                        </div>
+                            <div class="box8">
+                                <select required id="food">
+                                 <option>Fresh Start</option>
+                                 <option>Baked Creamy</option>
+                                 <option>Burger Set</option>
+                                 <option>Super Steak Set</option>
+                                 <option>Bread & Steak Set</option>
+                                 <option>Sea Food Set</option>
+                                 <option>Premium Steak</option>
+                                 <option>Salmon Set</option>
+                                </select>
+                            </div>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="font7">
+                    Special Request
+                    </div>
+                    <div class="box6">
+                    <textarea name="area" id="area" ></textarea>
+                    </div>
+                    </td>
+                    </tr>
+            </table>
+            <div class="box7">
+                <button type="submit" name="send" id="send" onclick="validate()">SEND</button>
+            </div>
+        </form>
+        </div>
+       
+    </header>
+    <footer>
+        <div class="foot">
+            <img src="../Reservation/image/footer5.jpg">
+        </div>
+    </footer>
+</body></html>

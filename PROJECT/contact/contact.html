@@ -1,0 +1,182 @@
+<script>
+    function validate(){
+        var name=document.getElementById('name').value;
+        var number=document.getElementById('number').value;
+        var email=document.getElementById('email').value;
+        var area=document.getElementById('area').value;
+        var mail=document.getElementById("send").value;
+        if(!name){
+            var errorname=document.getElementById('error-name');
+            if(!errorname){
+                var msgSpan=document.createElement('span');
+                msgSpan.id='error-name';
+                msgSpan.innerHTML='<br>'+'Name cannot be empty';
+                document.getElementById('name').after(msgSpan);
+            }
+            event.preventDefault();
+        }
+        else {
+            var errorname = document.getElementById('error-name');
+            if(errorname){
+                errorname.remove();
+            }
+        }
+        if(!number){
+            var errornumber=document.getElementById('error-number');
+            if(!errornumber){
+                var msgSpan=document.createElement('span');
+                msgSpan.id='error-number';
+                msgSpan.innerHTML='<br>'+'Number cannot be empty';
+                document.getElementById('number').after(msgSpan);
+            }
+            event.preventDefault();
+        }
+        else {
+            var errornumber = document.getElementById('error-number');
+            if(errornumber){
+                errornumber.remove();
+            }
+        }
+        if(!email){
+            var erroremail=document.getElementById('error-email');
+            if(!erroremail){
+                var msgSpan=document.createElement('span');
+                msgSpan.id='error-email';
+                msgSpan.innerHTML='<br>'+'Email cannot be empty';
+                document.getElementById('email').after(msgSpan);
+            }
+            event.preventDefault();
+        }
+        
+        else {
+            var erroremail = document.getElementById('error-email');
+            if(erroremail){
+                erroremail.remove();
+            }
+        }
+        
+        if(!area){
+            var errorarea=document.getElementById('error-area');
+            if(!errorarea){
+                var msgSpan=document.createElement('span');
+                msgSpan.id='error-area';
+                msgSpan.innerHTML='<br>'+'Message cannot be empty';
+                document.getElementById('area').after(msgSpan);
+            }
+            event.preventDefault();
+        }
+        else {
+            var errorarea = document.getElementById('error-area');
+            if(errorarea){
+                errorarea.remove();
+            }
+        }
+        if(name=="" || number=="" || area=="" || email==""){
+            
+                alert("Please fill the fields");
+            
+            event.preventDefault();
+        }
+        else if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+        alert("Enter a valid email");
+		
+		event.preventDefault();
+        
+    }
+        else{
+            
+                alert("Thank You For Your Feedback 😊");
+        }
+    }
+</script>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="gidarya restaurant">
+        <meta name="keyword" content="gidarya restaurant, restaurant,food,online food">
+        <meta name="author" content="">
+        <title>
+            Contact
+        </title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body background="../contact/images/black-22.jpg">
+    <header>
+        <nav>
+            <div class="logo"><span>G</span>idariya Restaurant</div>
+            <div class="menu">
+                <a href="../project 1/index.html">Home</a>
+                    <a href="../MENU/MENU.html">Menu</a>
+                    <a href="../contact/contact.html">Feedback</a>
+                    <a href="../storey/story.html">Story</a>
+                    <a href="../About/About.html">About</a>
+                
+            </div>
+        </nav>
+            <div id="hi">
+                <img src="../contact/images/Screenshot 2023-01-07 154722.png">
+            </div>
+        <div class="message">
+            <form action="" name="form1" method="post" onsubmit="return validate()">
+         <h2 class="icon">Leave a message</h2>
+         <form action="" name="form1" method="post">
+    <table class="login">
+        <tr>
+            <td>
+                <div class="box1">
+            <div class="font">
+                Full Name<div id="star"><span>*</span></div>
+
+            </div>
+            <input type="text" name="name" id="name"  placeholder="Your Name">
+            </div>
+            </td>
+            <td>
+                <div class="box2">
+             <div class="font2">
+                Phone Number<div id="star"><span>*</span></div>
+            </div>
+             <input type="text" placeholder="123-456-7890" name="number" id="number">
+             </div>
+            </td>
+        </tr>
+        <table class="login2">
+       <tr>
+        <td>
+            <div class="box3">
+                <div class="font3">
+                    Email <div id="star"><span>*</span></div>
+                </div>
+                <input type="email" placeholder="Your Email" name="email" id="email">
+            </div>
+        </td>
+       </tr>
+       <tr>
+        <td>
+            <div class="box4">
+                <div class="font4">
+                    Message<div id="star"><span>*</span></div>
+
+                </div>
+                <textarea placeholder="Your Message" name="area" id="area"></textarea>
+            </div>
+        </td>
+       </tr>
+       </table>
+       <div class="button">
+       <button type="submit" name="send" id="send"onclick="validate()">SEND</button>
+       </form>
+    </div>
+
+        </table>
+        </table>
+    </form>
+    </header>
+    <footer>
+        <div class="foot">
+            <img src="../contact/images/footer5.jpg">
+        </div>
+    </footer>
+</body>
+</html

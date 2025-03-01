@@ -1,0 +1,184 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box; font-family: sans-serif;
+}
+body{
+    
+    background-size: 100%;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px grey;
+    
+    background-color: rgb(10, 10, 10);
+}
+
+.logo{
+font-weight: bold;
+color: white;
+letter-spacing: 2px;
+font-size: 2em;
+}
+.logo span{
+    color: red;
+    font-family: cursive;
+    font-size: 80px;
+}
+.logo span:hover{
+    color: brown;
+}
+.menu a{
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+}
+.menu a:hover{
+    color: yellow;
+}
+
+.login{
+    position: relative;
+margin-top: 100px;
+width: 450px;
+height: auto;
+border-radius: 8px;
+}
+.message{
+   
+    padding-top: 1px;
+}
+
+.icon{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-left: 115px;
+    margin-top: 160px;
+    font-size: 60px;
+}
+.login{
+    margin-left: 93px;
+}
+.login2{
+    margin-left: 93px;
+}
+.font{
+    color: white;
+    padding: 20px 7px;
+       
+}
+.font2{
+    color: white;
+    padding: 20px 0px;
+    
+}
+.box1 input{
+    height: 42px;
+    width: 310px;
+    padding: 0px 5px;
+    font-size: 18px;
+    outline: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.box2 input{
+    height: 42px;
+    width: 310px;
+    padding: 0px 5px;
+    font-size: 18px;
+    outline: none;
+    
+    border-radius: 8px;
+    font-weight: bold;
+}
+.box1{
+    padding-left: 22px;
+}
+.box2{
+    padding-left: 40px;
+}
+.font3{
+    color: white;
+    padding: 20px 30px;
+}
+.box3 input{
+    height: 42px;
+    width: 667px;
+    padding: 0px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.font4{
+    color: white;
+    padding: 20px 30px;
+}
+.box4 textarea{
+    height: 140px;
+    width: 667px;
+    padding: 8px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.button{
+    padding: 22px 0px;
+    margin-left: 115px;
+    
+}
+.button button{
+    height: 43px;
+    width: 667;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 8px;
+    color: white;
+}
+.button button:hover{
+    color: black;
+    background-color: lightcoral;
+}
+#hi img{
+    height: 470px;
+    width: 100%;
+}
+.foot{
+    margin-top: 700px;
+   
+}
+.foot img{
+    height: 400px;
+    width: 100%;
+}
+#error-email, #error-name, #error-number, #error-area{
+    color: red;
+    font-size: 15px;
+    padding-top: 5px;
+}
+#error-email{
+    color: red;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+#error-area{
+    color: red;
+    font-size: 15px;
+    padding-top: 5px;
+}
+#star span{
+    color: red;
+    font-size: 21px;
+}

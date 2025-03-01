@@ -1,0 +1,216 @@
+*{
+    padding: 0px; margin: 0px; box-sizing: border-box; font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+body{
+    background-size: 100%;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    box-shadow: 2px 0px 5px rgb(199, 196, 196);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0px 70px;
+    background-color: rgb(10, 10, 10);
+    
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+.menu a:hover{
+    color:yellow;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.logo span{
+    color: red;
+    font-size: 80px;
+    font-family: cursive;
+}
+.logo span:hover{
+    color: brown;
+}
+.message{
+    color: white;
+    padding-top: 170px;
+    padding-left: 210px; 
+    font-size: 30px;
+    font-family:cursive;  
+}
+.font1{
+    color: white;
+    margin-left: 210px;
+    margin-top: 35px;
+}
+.box1 input{
+    margin-left: 210px;
+    margin-top: 10px;
+    padding: 5px 2px;
+    width: 340px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.font2{
+    color: white;
+    margin-top: 31px;
+    margin-left: 35px;
+}
+.box2 input{
+    margin-left: 30px;
+    margin-top: 13px;
+    padding: 5px 2px;
+    width: 340px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.font3{
+    color: white;
+    margin-left: 210px;
+    margin-top: 35px;
+}
+.box3 input{
+    margin-left: 210px;
+    margin-top: 10px;
+    padding: 5px 2px;
+    width: 340px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.font4{
+    color: white;
+    margin-top: 31px;
+    margin-left: 35px;
+}
+.box4 input{
+    margin-left: 30px;
+    margin-top: 13px;
+    padding: 5px 2px;
+    width: 340px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.font5{
+    color: white;
+    margin-left: 210px;
+    margin-top: 35px;
+}
+.box5 input{
+    margin-left: 210px;
+    margin-top: 10px;
+    padding: 5px 2px;
+    width: 340px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.font6{
+    color: white;
+    margin-top: 31px;
+    margin-left: 35px;
+}
+.box6 select{
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 5px 2px;
+    width: 340px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.font6{
+    color: white;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.box6 textarea{
+    margin-left: 210px;
+    margin-top: 10px;
+    padding: 5px 2px;
+    width: 713px;
+    height: 100px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.font7{
+color: white;
+margin-left: 210px;
+margin-top: 30px;
+}
+button{
+    margin-left: 475px;
+    margin-top: 40px;
+    
+    background: white;
+    width: 180px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+button:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.font8{
+    color: white;
+    margin-left: 210px;
+    margin-top: 35px;
+}
+.box8 select{
+    margin-left: 210px;
+    margin-top: 10px;
+    padding: 5px 2px;
+    width: 713px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.foot{
+    margin-top: 240px;
+   
+}
+.foot img{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+}
+#star span{
+    color: red;
+    font-size: 21px;
+}
+#error-email, #error-name, #error-number, #error-area ,#error-person, #error-date{
+    color: red;
+    font-size: 15px;
+}
+
+
+

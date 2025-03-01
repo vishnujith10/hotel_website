@@ -1,0 +1,75 @@
+<script>
+    function validate()
+    {
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+        
+        if(!email){
+            var errorEmail = document.getElementById('error-email');
+            if(!errorEmail) {
+                var msgSpan = document.createElement('span');
+                msgSpan.id = 'error-email';
+                msgSpan.innerHTML = 'Email is empty';
+                document.getElementById('email').after(msgSpan);
+            }
+            event.preventDefault();
+        }else {
+            var errorEmail = document.getElementById('error-email');
+            if(errorEmail){
+                errorEmail.remove();
+            }
+        }
+        if(!password){ console.log(password);
+            var errorPassword = document.getElementById('error-password');
+            if(!errorPassword){
+                var msgSpanPass = document.createElement('span');
+                msgSpanPass.id = 'error-password';
+                msgSpanPass.innerHTML = 'Password is empty';
+                document.getElementById('password').after(msgSpanPass);
+            }
+            event.preventDefault()
+        }else {
+            var errorPassword = document.getElementById('error-password');
+            if(errorPassword){
+                errorPassword.remove();
+            }
+        }
+      if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+        alert("fill the fields corectly");
+		
+		event.preventDefault();
+        
+    }
+    else {
+            var errorEmail = document.getElementById('error-email');
+            if(errorEmail){
+                errorEmail.remove();
+            }
+        }
+    }
+    
+</script>
+<html>
+    <head>
+        <title>login</title>
+        <link rel="stylesheet" href="login1.css">
+    </style>
+    </head>
+    <body>
+       
+        <div class="container">
+            <form action="../Reservation/Reservaton.html" name="form1" method="post" >
+            <h1 class="label1">Login</h1>
+            <div class="login">
+            <div class="font">
+            Email
+            </div>
+            <input type="email"  name="email" id="email" pattern="[a-zA-Z0-9!#$%&amp;'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*"/>
+            <div class="font2">Password</div>
+            <input type="password"  name="Password" id="password"/>
+            <div class="button">
+            <input type="submit" name="submit" onclick="validate()"/></div>
+            </form>
+        </div>
+    </body>
+</html>

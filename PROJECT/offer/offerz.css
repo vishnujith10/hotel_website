@@ -1,0 +1,427 @@
+*{padding: 0%; margin: 0%; box-sizing: border-box; font-family: sans-serif
+    ;}
+    
+    header{
+        width: 100%;
+        height: 100vh;
+    }
+    body{
+        background-size: 100%;
+        
+    }
+    nav{
+        width: 100%;
+        height: 70px;
+        padding: 0px 70px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 2px 0px 5px grey;
+        
+        background-color: rgb(10, 10, 10);
+    }
+    .logo{
+        font-weight: bold;
+        font-size: 2em;
+       letter-spacing: 2px;
+       color: white;
+    }
+    .logo span{
+        color: red;
+        font-size: 80px;
+        font-family:cursive;
+    }
+    .logo span:hover{
+        color: brown;
+    }
+    .menu1 a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+    }
+    .menu1 a:hover{
+        color: yellow;
+    }
+   
+    .offername img{
+        height: 300px;
+        width: 300px;
+        margin-left: 40%;
+        margin-top: 10px;
+    
+    }
+    .offers{
+        background-color: rgba(48, 47, 55, 0.418);
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 100%;
+    }
+    .slide1 img{
+        width: 450px;
+        height: 340px;
+        padding-left: 40px;
+        margin-top: 200px;
+        transition: 0.8s ease;
+    }
+    .slide1 img:hover{
+        transform: scale(1.1,1.1);
+    }
+    .slide1{
+        margin-left: 50px;
+    }
+    .font1 h3{
+        color: white;
+        margin-top: 20px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        margin-left: 110px;
+    margin-top: 50px;}
+.price1{
+    color: white;
+    border-radius: 60px;
+    padding: 14px 14px;
+    width: 90px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.font2 h3{
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 37%;
+margin-top: -90px;}
+.price2{
+color: white;
+border-radius: 60px;
+padding: 14px 14px;
+width: 90px;
+height: 50px;
+margin-top: 14px;
+margin-left: 36%;
+font-weight: bold;
+font-size: 20px;
+}
+.font3 h3{
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 68%;
+margin-top: -88px;}
+
+.price3{
+color: white;
+border-radius: 60px;
+padding: 14px 14px;
+width: 90px;
+height: 50px;
+margin-top: 10px;
+margin-left: 67%;
+font-weight: bold;
+font-size: 20px;
+}
+.oprice1{
+    color: orange;
+background-color: white;
+border-radius: 60px;
+padding: 14px 14px;
+width: 90px;
+height: 50px;
+margin-top: -47px;
+margin-left: 200px;
+box-shadow: 5px 5px 8px black;
+font-weight: bold;
+font-size: 20px;
+}
+.oprice1{
+    color: orange;
+    background-color: white;
+    border-radius: 60px;
+    padding: 14px 14px;
+    width: 90px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 200px;
+    box-shadow: 5px 5px 8px black;
+    font-weight: bold;
+    font-size: 20px;
+    }
+ .oprice2{
+        color: orange;
+        background-color: white;
+        border-radius: 60px;
+        padding: 14px 14px;
+        width: 90px;
+        height: 50px;
+        margin-top: -145px;
+        margin-left: 43%;
+        box-shadow: 5px 5px 8px black;
+        font-weight: bold;
+        font-size: 20px;
+     }
+     .oprice3{
+        color: orange;
+        background-color: white;
+        border-radius: 60px;
+        padding: 14px 14px;
+        width: 90px;
+        height: 50px;
+        margin-top: -47px;
+        margin-left: 73%;
+        box-shadow: 5px 5px 8px black;
+        font-weight: bold;
+        font-size: 20px;
+     }
+     .order1{
+        transition: all 0.5s;
+        background-color: white;
+        border-radius: 60px;
+        padding: 14px 14px;
+        width: 140px;
+        height: 50px;
+        margin-top: -54px;
+        margin-left: 22%;
+        box-shadow: 5px 5px 8px black;
+        font-weight: bold;
+        font-size: 20px;
+        }     
+        .order1 a{
+            text-decoration: none;
+            color: orange;
+        }
+        .order1:hover{
+            background-color: rgba(245, 222, 179, 0.329);
+        }
+        .order2{
+            transition: all 0.5s;
+            background-color: white;
+            border-radius: 60px;
+            padding: 14px 14px;
+            width: 140px;
+            height: 50px;
+            margin-top: -50px;
+            margin-left: 51%;
+            box-shadow: 5px 5px 8px black;
+            font-weight: bold;
+            font-size: 20px;
+            }     
+            .order2 a{
+                text-decoration: none;
+                color: orange;
+            }
+            .order2:hover{
+                background-color: rgba(245, 222, 179, 0.329);
+            }
+            .order3{
+                transition: all 0.5s;
+                background-color: white;
+                border-radius: 60px;
+                padding: 14px 14px;
+                width: 140px;
+                height: 50px;
+                margin-top: -47px;
+                margin-left: 81%;
+                box-shadow: 5px 5px 8px black;
+                font-weight: bold;
+                font-size: 20px;
+                }     
+                .order3 a{
+                    text-decoration: none;
+                    color: orange;
+                }
+                .order3:hover{
+                    background-color: rgba(245, 222, 179, 0.329);
+                }
+                .slide2 img{
+                    width: 450px;
+                    height: 340px;
+                    padding-left: 40px;
+                    margin-top: 200px;
+                    transition: 0.8s ease;
+                }
+                .slide2 img:hover{
+                    transform: scale(1.1,1.1);
+                }
+                .slide2{
+                    margin-left: 50px;
+                    margin-top: -30px;
+                }
+                .offers2{
+                    background-color: rgba(48, 47, 55, 0.418);
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    height: 100%;
+                    margin-top: 123px;
+                }
+                .font4 h3{
+                    color: white;
+                    margin-top: 20px;
+                    font-weight: bold;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 25px;
+                    margin-left: 110px;
+                margin-top: 50px;}
+                .price4{
+                    color: white;
+                    border-radius: 60px;
+                    padding: 14px 14px;
+                    width: 90px;
+                    height: 50px;
+                    margin-top: 15px;
+                    margin-left: 100px;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                .font5 h3{
+                    color: white;
+                    margin-top: 20px;
+                    font-weight: bold;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 25px;
+                    margin-left: 37%;
+                margin-top: -90px;}
+                .price5{
+                color: white;
+                border-radius: 60px;
+                padding: 14px 14px;
+                width: 90px;
+                height: 50px;
+                margin-top: 14px;
+                margin-left: 36%;
+                font-weight: bold;
+                font-size: 20px;
+                }
+                .font6 h3{
+                    color: white;
+                    margin-top: 20px;
+                    font-weight: bold;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 25px;
+                    margin-left: 68%;
+                margin-top: -88px;}
+                
+                .price6{
+                color: white;
+                border-radius: 60px;
+                padding: 14px 14px;
+                width: 90px;
+                height: 50px;
+                margin-top: 10px;
+                margin-left: 67%;
+                font-weight: bold;
+                font-size: 20px;
+                }
+                .oprice4{
+                    color: orange;
+                    background-color: white;
+                    border-radius: 60px;
+                    padding: 14px 14px;
+                    width: 90px;
+                    height: 50px;
+                    margin-top: -50px;
+                    margin-left: 200px;
+                    box-shadow: 5px 5px 8px black;
+                    font-weight: bold;
+                    font-size: 20px;
+                    }
+                 .oprice5{
+                        color: orange;
+                        background-color: white;
+                        border-radius: 60px;
+                        padding: 14px 14px;
+                        width: 90px;
+                        height: 50px;
+                        margin-top: -145px;
+                        margin-left: 43%;
+                        box-shadow: 5px 5px 8px black;
+                        font-weight: bold;
+                        font-size: 20px;
+                     }
+                     .oprice6{
+                        color: orange;
+                        background-color: white;
+                        border-radius: 60px;
+                        padding: 14px 14px;
+                        width: 90px;
+                        height: 50px;
+                        margin-top: -47px;
+                        margin-left: 73%;
+                        box-shadow: 5px 5px 8px black;
+                        font-weight: bold;
+                        font-size: 20px;
+                     }
+                     .order4{
+                        transition: all 0.5s;
+                        background-color: white;
+                        border-radius: 60px;
+                        padding: 14px 14px;
+                        width: 140px;
+                        height: 50px;
+                        margin-top: -54px;
+                        margin-left: 22%;
+                        box-shadow: 5px 5px 8px black;
+                        font-weight: bold;
+                        font-size: 20px;
+                        }     
+                        .order4 a{
+                            text-decoration: none;
+                            color: orange;
+                        }
+                        .order4:hover{
+                            background-color: rgba(245, 222, 179, 0.329);
+                        }
+                        .order5{
+                            transition: all 0.5s;
+                            background-color: white;
+                            border-radius: 60px;
+                            padding: 14px 14px;
+                            width: 140px;
+                            height: 50px;
+                            margin-top: -50px;
+                            margin-left: 51%;
+                            box-shadow: 5px 5px 8px black;
+                            font-weight: bold;
+                            font-size: 20px;
+                            }     
+                            .order5 a{
+                                text-decoration: none;
+                                color: orange;
+                            }
+                            .order5:hover{
+                                background-color: rgba(245, 222, 179, 0.329);
+                            }
+                            .order6{
+                                transition: all 0.5s;
+                                background-color: white;
+                                border-radius: 60px;
+                                padding: 14px 14px;
+                                width: 140px;
+                                height: 50px;
+                                margin-top: -47px;
+                                margin-left: 81%;
+                                box-shadow: 5px 5px 8px black;
+                                font-weight: bold;
+                                font-size: 20px;
+                                }     
+                                .order6 a{
+                                    text-decoration: none;
+                                    color: orange;
+                                }
+                                .order6:hover{
+                                    background-color: rgba(245, 222, 179, 0.329);
+                                }
+                                .foot{
+                                    margin-top: 1300px;
+                                   
+                                }
+                                .foot img{
+                                    height: 400px;
+                                    width: 100%;
+                                }
