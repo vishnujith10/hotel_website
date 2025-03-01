@@ -1,7 +1,7 @@
 This is the first frontend website that i created by myself. for the index page i took help from a youtube channel and the reamaining pages have done by myself
 
 
-                                                      IF YOU WANT TO USE THIS PROJECT
+                                            IF YOU WANT TO USE THIS PROJECT
 
 
 Follow the steps below to download and run the project locally on your machine using Visual Studio Code (VSCode). Prerequisites
